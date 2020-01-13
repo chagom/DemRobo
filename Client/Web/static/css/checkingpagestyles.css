@@ -1,0 +1,112 @@
+body {
+  background-color: #F5F5F6;
+  width: 1920px;
+  height: auto;
+  position: absolute;
+}
+
+.header{
+
+  width: 410px;
+  height: 3590px;
+  background-color: #68B6F3;
+  display:inline-block;
+  position: sticky;
+}
+
+.header img{
+
+    position: inherit;
+    padding-left: 100px;
+    padding-top: 125px;
+
+}
+
+.list{
+  width: 410px;
+  height: fit-content;
+  position: inherit;
+
+}
+
+.list a{
+  text-decoration: none;
+}
+
+.list p{
+  padding-left: 178px;
+  padding-top: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+.test{
+  width: 410px;
+  height: fit-content;
+}
+
+.test a{
+  text-decoration: none;
+}
+
+.test p{
+    padding-left: 173px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.checkingpage{
+    width: 1446px;
+    height: 3590px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 450px;
+    top: 40px;
+}
+
+
+.checkingpage span{
+
+  display: block;
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: 46px;
+  top: 40px;
+
+}
+
+#age{
+
+  top: 50px;
+
+}
+
+.checkingpage a {
+
+  top: -143px;
+  left: 1391px;
+}
+
+.checkingpage a img{
+
+  position: relative;
+  top: -143px;
+  left: 1391px;
+}
+
+.audio01{
+  position: relative;
+  top: 50px;
+  left: 50px;
+  cursor:pointer;
+}
+
+.audio02{
+  position: relative;
+  top: 65px;
+  left: 50px;
+  cursor: pointer;
+}

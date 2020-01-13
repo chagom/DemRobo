@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>brainrobo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+  </head>
+
+  <body>
+        <img id="qbolady" src="{% static 'img/qbolady.png' %}" alt="robo with old lady">
+
+        <div class="login_form">
+          <img id="logo" src="{% static 'img/logo.png' %}" alt="LOGO">
+
+          <form class="form-signin" method=post action="/validateLogin/"> <!-- #에 서버파일 연결-->
+            {% csrf_token %}
+            <span class= "checkbox">
+              <label class="radioContainor">
+                <input type = "radio" name="checkExpert" >
+                <span class="circle"> </span>
+              </label>
+              <img src="{% static 'img/Expert@2x.png' %}">
+
+              <label class="radioContainor">
+                <input type ="radio" name="checkCaregiver">
+                <span class="circle"> </span>
+              </label>
+              <img src="{% static 'img/Caregiver@2x.png' %}">
+            </span>
+            <br>
+			<div class="form-group">
+            <input type="text" id="IDbox" name="EXPERT_ID" placeholder="ID" class="form-control">
+            <br>
+			</div>
+			<div class="form-group">
+            <input type="password" id="PWbox" name="EXPERT_PW" placeholder="PASSWORD" class="form-control">
+            <br>
+			</div>
+            <a href ="#" id="forgetpassword">Forget PASSWORD?</a>
+            <input type="submit" name="Login" value="Log in" id="login">
+
+          </form>
+        </div>
+
+
+  </body>
+</html>

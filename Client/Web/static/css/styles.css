@@ -1,0 +1,114 @@
+body {
+  background-color: #F5F5F6;
+  width: 1920px;
+  height: 1080px;
+}
+#qbolady {
+  width: 1141px;
+  height: 1080px;
+}
+.login_form{
+  width:770px;
+  height:1080px;
+  display: inline-block;
+  position:absolute;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  margin-top: 8px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+}
+
+#IDbox{
+  width: 600px;
+  height: 100px;
+  margin-bottom: 100px;
+  margin-top: 8px;
+  margin-left:120px;
+  font-size: 40px;
+  text-indent: 25px;
+  border-radius: 15px;
+  border-width:0px;
+}
+#PWbox{
+  width: 600px;
+  height: 100px;
+  margin-bottom: 40px;
+  margin-top: 8px;
+  margin-left:120px;
+  font-size: 40px;
+  text-indent: 25px;
+  border-width:0px;
+  border-radius: 15px;
+
+
+}
+
+
+#forgetpassword{
+  color: #2A87C1;
+  font-size: 30px;
+  padding-right: 20px;
+  margin-left: 145px;
+  margin-bottom: 300px;
+}
+
+#login{
+  border-color: #68B6F3;
+  border-style: solid;
+  background-color:#68B6F3;
+  border-width: 1px;
+  padding: 1px 7px 2px;
+  width:270px;
+  height:90px;
+  color:#ffffff;
+  font-size: 36px;
+}
+
+.checkbox{
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 450px;
+}
+
+.radioContainor{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.radioContainor input{
+  display:none;
+}
+
+.radioContainor .circle{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  left:0;
+  top: 0;
+  border-radius: 50%;
+}
+
+.radioContainor:hover .circle{
+  background-color: #2A87C1;
+}
+
+.radioContainor input:checked + .circle{
+  background-color: #2196fc;
+}
+
+.radioContainor input:checked + .circle:after{
+  content:"";
+  height:10px;
+  width: 10px;
+  background-color: white;
+  position:absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-63%, -63%);
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>brainrobo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/expertstyles.css' %}">
+
+  </head>
+
+  <!--본문-->
+  <body>
+
+<!--왼쪽에 고정될 전문가 프로-->
+    <div class="header">
+      <img src="{% static 'img/expert_profile@2x.png' %}" alt="expert_profile">
+      <br>
+      <span class="list">
+        <a href=""><p>LIST</p></a>
+      </span>
+      <br>
+      <span class="test">
+        <a href=""><p>TEST</p></a>
+      </span>
+    </div>
+
+    <!--오른쪽 회원 리스트 상단 제목,검색,추가,구분목록-->
+    <div class="listpage">
+
+        <div class="title"><!--LIST제목-->
+          <p>LIST</p>
+        </div>
+
+        <div class="searchbox"> <!--검색박스-->
+          <input type="image" src="{% static 'img/add_button@2x.png' %}" name="add">
+          <input type="text" name="search_patient" placeholder="Search the Patient Name">
+          <input type="image" src="{% static 'img/search_button@2x.png' %}" name="search">
+        </div>
+
+        <img src="{% static 'img/nav_bar@2x.png' %}" alt="list_navbar"> <!--리스트 네비게이션 이미-->
+
+      <!-- <ul>
+          <li>Patient</li>
+          <li>Test</li>
+          <li>Caregiver</li>
+          <li>Test</li>
+          <li>Contact</li>
+        </ul>-->
+    </div>
+
+
+
+  {% for Patient in patientList %}
+  <div class="patient_box"><!--patient box, 데이터가 추가되면 이 박스가 추가됨-->
+    <input type="checkbox" name="list check">
+    <img src="{% static 'img/profile@2x.png' %}" alt="Patient_profile">
+    <span>{{Patient.PAT_NAME}}</span>
+    <img src="{% static 'img/light_balb@2x.png' %}" alt="alarm"><!--전구이미지-->
+	<br>
+    <img src="{% static 'img/profile@2x.png' %}" alt="Caregiver_profile">
+    <span>Name</span>
+    <img src="{% static 'img/light_balb_x@2x.png' %}" alt="alarm"><!--전구이미지-->
+
+    <!--Contact-->
+    <input type="image" src="{% static 'img/Phone@2x.png' %}" name="call">
+    <input type="image" src="{% static 'img/Messages@2x.png' %}" name="message">
+    <input type="image" src="{% static 'img/Options@2x.png' %}" name="Options">
+  </div>
+  {% endfor %}
+
+
+  </body>
+</html>

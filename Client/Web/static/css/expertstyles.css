@@ -1,0 +1,279 @@
+body {
+  background-color: #F5F5F6;
+  width: 1920px;
+  height: auto;
+}
+.header{
+  position:sticky;
+  width: 410px;
+  height: 1080px;
+  background-color: #68B6F3;
+  display:inline-block;
+}
+
+.header img{
+
+    position: sticky;
+    padding-left: 100px;
+    padding-top: 125px;
+
+}
+
+.list{
+  width: 410px;
+  height: fit-content;
+
+}
+.list a{
+  text-decoration: none;
+}
+.list p{
+  padding-left: 178px;
+  padding-top: 40px;
+  font-size: 30px;
+  color: white;
+}
+.test{
+  width: 410px;
+  height: fit-content;
+}
+
+.test a{
+  text-decoration: none;
+}
+
+.test p{
+  padding-left: 173px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.listpage{
+  display: inline-block;
+  width: 1426px;
+  height: 253px;
+  position:absolute;
+  margin-left: 30px;
+  box-shadow: 0px 3px 6px #C3BCBC;
+}
+
+.patient_box{
+  width: 1425px;
+  height: 150px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: 260px;
+  margin-left: 30px;
+  cursor: pointer;
+  box-shadow: 0px 10px 6px #C3BCBC;
+}
+
+.patient_box:hover{
+  background-color: #F4F2F2;
+}
+
+
+.accordion{
+  display: contents;
+}
+
+.accordion .isOpen + .menu{
+
+   display: inline-block;
+}
+
+
+.title{
+  width: 1426px;
+  height: 100px;
+  display:inline-block;
+  background-color: #FF9999;
+}
+.title p{
+  padding-left: 40px;
+  padding-top: 13px;
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.searchbox{
+  background-color: white;
+  width: 1426px;
+}
+
+#add{
+  padding-left: 25px;
+  padding-right: 10px;
+  padding-top: 15px;
+  position: relative;
+}
+
+#search_patient{
+  width: 1180px;
+  border:none;
+  outline:none;
+  border-bottom: 2px solid;
+  border-bottom-color: #9A9A9A;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 25px;
+  position: absolute;
+  top: 138px;
+}
+#search{
+  position: relative;
+  right: -1210px;
+}
+
+.checkboxContainer{
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.checkboxContainer input{
+
+  display: none;
+
+
+}
+.check{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  position:relative;
+  margin-left: 46px;
+  margin-top: 70px;
+  right: 20px;
+  top: -8px;
+  border: 2px solid;
+  border-color: #707070;
+}
+
+.checkboxContainer input:hover + .check{
+  background-color: #CCCCCC;
+}
+.checkboxContainer input:checked + .check:after{
+  content:"";
+  position:absolute;
+  height: 6px;
+  width: 11px;
+  border-left: 4px solid #9A9A9A;
+  border-bottom: 4px solid #9A9A9A;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+
+
+}
+#patient_profile{
+
+  margin-left: 10px;
+  margin-top: 40px;
+  position: relative;
+  top: 0px;
+
+}
+.patient_box .name{
+
+  padding-left: 70px;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #7E7E7E;
+  position: relative;
+  top: -10px;
+
+
+}
+#alarm1{
+
+  padding-left: 204px;
+  padding-top: 30px;
+  position: relative;
+  top: 8px;
+
+}
+#caregiver_profile{
+
+  padding-left:150px;
+  position: relative;
+  top: 5px;
+
+}
+#alarm2{
+
+  padding-left: 213px;
+  position: relative;
+  top: 8px;
+
+}
+#call{
+
+    padding-left: 117px;
+    padding-right: 10px;
+
+}
+#message{
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+#options{
+
+  position: relative;
+  top: -4px;
+
+}
+
+.menu{
+  display: none;
+  position: absolute;
+  top: 417px;
+  width: 1392px;
+  height: 450px;
+  background-color: #FF9999;
+  margin-left: 46px;
+  box-shadow: 3px 3px 5px #C3BCBC;
+}
+
+
+.menu span{
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.menu div{
+  display: inline-block;
+}
+
+.patient_report{
+  position: relative;
+  top: 33px;
+  left: 164px;
+}
+
+.caregiver_report{
+  position: relative;
+  top: 33px;
+  left: 364px;
+}
+
+.patient_info{
+    position: relative;
+    top: -174px;
+    margin-left: 79px;
+}
+
+.caregiver_info{
+  position: relative;
+  top: -174px;
+  left: 190px;
+}

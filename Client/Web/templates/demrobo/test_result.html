@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>brainrobo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/testcheckstyles.css' %}">
+  </head>
+  <body>
+    <!--왼쪽에 고정될 전문가 프로-->
+        <div class="header">
+          <img src="{% static 'img/expert_profile@2x.png' %}" alt="expert_profile">
+          <br>
+          <span class="list">
+            <a href=""><p>LIST</p></a>
+          </span>
+          <br>
+          <span class="test">
+            <a href=""><p>TEST</p></a>
+          </span>
+        </div>
+
+      <!--테스트 화면-->
+        <div class="checkpage">
+
+            <span>  <p>Name</p> </span>
+            <span id="age"> <p>Age</p> </span>
+
+            <!--엑스 이미지-->
+            <a href="#"> <img src="{% static 'img/Cancel@2x.png' %}" alt="X"> </a>
+
+            <!--Task 테이-->
+            <table class="task">
+              <thead>
+                  <tr>
+                    <td>Task</td>
+                    <td>Score of each task</td>
+                    <td>Transformed Score</td>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <tr>
+                    <td>1. Word List</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>2. Number Conversion</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>3. Supermarket Task</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4. Series of numbers in reverse</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>5. Repeat the word list</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td colspan="2">If educational years are less than 11 years, plus 1 point.</td>
+                    <td></td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                    <td colspan="2">  Total(max 18) </td>
+                    <td></td>
+                  </tr>
+              </tfoot>
+
+            </table>
+            <!--status 테이블-->
+            <table class="status">
+
+              <thead>
+                <tr>
+                  <td>Total</td>
+                  <td>Status</td>
+                  <td>Notes</td>
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr>
+                  <td>13-18</td>
+                  <td>Normal</td>
+                  <td>Please take the test 1 year later or
+                    if you have any problem</td>
+                </tr>
+
+                <tr>
+                  <td>9-12</td>
+                  <td>Mild Cognitive Impairment</td>
+                  <td>Please take the test 6 months later.
+                  Keep watching status</td>
+                </tr>
+
+                <tr>
+                  <td> 8 or less than 8 </td>
+                  <td> Doubt Dementia </td>
+                  <td> Please visit the hospital.
+                  Need professional treatment.</td>
+                </tr>
+              </tbody>
+
+
+
+            </table>
+
+        </div>
+
+  </body>
+</html>

@@ -1,0 +1,122 @@
+body {
+  background-color: #F5F5F6;
+  width: 1920px;
+  height: auto;
+  position: absolute;
+
+}
+.header{
+
+  width: 410px;
+  height: 1800px;
+  background-color: #68B6F3;
+  display:inline-block;
+  position: sticky;
+}
+
+.header img{
+
+    position: inherit;
+    padding-left: 100px;
+    padding-top: 125px;
+
+}
+
+.list{
+  width: 410px;
+  height: fit-content;
+  position: inherit;
+
+}
+.list a{
+  text-decoration: none;
+}
+.list p{
+  padding-left: 178px;
+  padding-top: 40px;
+  font-size: 30px;
+  color: white;
+}
+.test{
+  width: 410px;
+  height: fit-content;
+}
+
+.test a{
+  text-decoration: none;
+}
+
+.test p{
+    padding-left: 173px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.checkpage{
+
+  width: 1400px;
+  height: 1744px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 450px;
+}
+
+.checkpage span{
+
+  display: block;
+  font-family: sans-serif;
+  font-size: 30px;
+  position: relative;
+  left: 46px;
+  top: 40px;
+
+}
+
+#age{
+
+  top: 50px;
+
+}
+
+table{
+  border-collapse: collapse;
+  border:3px solid #707070;
+  position: relative;
+  left: 50px;
+  font-size: 30px;
+  width: 1300px;
+}
+
+tr,td{
+
+  border: 3px solid #707070;
+  font-family: sans-serif;
+  font-size: 30px;
+  width: 550px;
+  height: 100px;
+
+}
+
+.task{
+      height: 000px;
+      position: relative;
+      top: inherit;
+      text-align: center;
+}
+
+.status{
+  height: 405px;
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+.checkpage a img{
+
+    position: relative;
+    top: -143px;
+    left: 1347px;
+}
