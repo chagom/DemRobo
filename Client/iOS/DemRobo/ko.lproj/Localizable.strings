@@ -1,0 +1,88 @@
+/*
+  Localizable.strings
+  DemRobo
+
+  Created by Goeum Cha on 19/02/2018.
+  Copyright © 2018 ChaGoEum. All rights reserved.
+  "" = "";
+*/
+
+"Name"         = "이름(아이디)";
+"BirthDate"    = "생년월일";
+"Confirm"      = "확인";
+"Password"     = "비밀번호";
+"FinalAcademy"  = "교육기간";
+"HospitalName"  = "병원이름";
+"N/A"          = "없음";
+
+"Next"         = "다 음 >";
+"NextNotice"    = "버튼을 눌러 다음 단계로 이동해주세요.";
+
+"First Trial"   = "처 음 이 세 요 ?";
+"SignupNotice"  = "주어진 순서대로 입력해주세요. 모두 입력하시면 다음 버튼을 눌러주세요.";
+"FirstVisit"    = "첫 방문이시군요!\n 바로 테스트를 진행하겠습니다.";
+"NextTestDate"  = "다음 테스트 예정일은\n";
+"NextTestDate2" = "입니다.";
+"NextTestDate3" = "그 때 다시 만나요!";
+"Welcome"       = "님 반갑습니다.";
+
+// Titles
+"VocaRememberTitle" = "1. 단어 기억하기";
+"NumConversionTitle" = "2. 숫자 변환하기";
+"SupermarketTitle" = "3. 이름 대기(시장에서 살 수 있는 물건)";
+"ReverseNumber" = "4. 숫자 거꾸로 말하기";
+"RepeatWordsTitle" = "5. 기억 회상하기";
+
+// 0. Recording View
+"OnRecording"   = "녹음 중입니다.";
+"RememberAllDone" = "기억 나는 단어를 모두 말씀하셨다면, \n\n";
+"Stop"          = "정지";
+"PressingBtn"   = "를 눌러, ";
+"StopRecording" = "녹음을 멈추어 주세요.";
+"RecordingSupermarket" = "녹음 중입니다.\n물건의 이름을 다 말씀하셨다면,\n말씀을 멈추고 잠시만 기다려주세요.";
+
+// 1. Repeat Words
+"Speaker" = "스피커 ";
+"WordListNotice1" = "버튼을 누르시면, 제가 천천히 10개의 단어를 불러드리겠습니다. 제가 끝이 나면";
+"Microphone" = "마이크 ";
+"WordListNotice2" = "버튼을 누르시고, 이 단어들 중 최대한 많이 말씀해주세요. 순서는 중요하지 않습니다.";
+"WordListNotice3" = "감사합니다.\n\n지금부터 동일한 단어를 다시 읽어드리겠습니다. \n\n제가 끝이 나면, 이 단어들 중 최대한 많은 단어를 말씀해주세요.";
+"WordListNotice_TTS1" = "버튼을 누르시면, 제가 천천히 10개의 단어를 불러드리겠습니다. 제가 끝이 나면, 버튼을 누르시고, 이 단어들 중 최대한 많이 말씀해주세요. 순서는 중요하지 않습니다.";
+"WordListNotice_TTS2" = "감사합니다. 제가 지금부터 동일한 단어를 다시 불러드리겠습니다. 제가 끝이나면, 이 단어들 중 최대한 많이 말씀해주세요. ";
+
+// 2. Number Conversion
+"NumConvMethod"     = "숫자는 문자로, 문자는 숫자로 쓰세요.";
+"Example"           = "예시)";
+"209"               = "이백구";
+"354"               = "삼백오십사 =";
+"WriteHere"         = "이곳에 글씨를 써주세요";
+"NumberConversion_TTS" = "";
+
+// 3. Supermarket
+"SupermarketNotice" = "시장에서 살 수 있는 물건의 이름을 가능한 많이 말씀해주세요. \n제한 시간은 1분입니다.";
+"SupermarketButton" = "버튼을 누르시고 말씀해주세요.";
+
+// 4. Number Reversion
+"NumReverseNotice"  = "지금부터 연속된 숫자를 제시하면 거꾸로 말하시면 됩니다.";
+"FourFive"          = "사-오";
+"FiveFour"          = "오-사";
+"GoQuestion"        = "문 제 풀 기";
+"NumReverseNotice_TTS" = "지금부터 연속된 숫자를 제시하면 거꾸로 말하시면 됩니다. \n예를 들어, 제가 \"사-오\"라고 말하면 \"오-사\"라고 말하시면 됩니다.";
+"NumReverseNoticeTry" = "This is your %d try.\n\nPlease solve the problem\n\nby following the direction.";
+"NumReverseNoticeCnt" = "Now, I'll tell you %d different numbers in a row.";
+"NumReverseNoticeRecording" = "This is recording page.\n If you're done, please press stop button below.";
+"NumReverseNoticeRecording2" = "";
+
+// 5. Repeating Words
+"RepeatWordsNotice" = "평가를 시작할 때 단어 10개를 불러드렸습니다.\n지금 이 단어들을 기억할 수 있습니까?";
+"RepeatWordsButton" = "버튼을 누르시고 말씀해주세요.";
+
+// 6. Test End
+"TestEndNotice" = "검사가 모두 끝났습니다.\n수고하셨습니다.";
+
+"NextTestDate_TMP" = "다음 테스트 예정일은 \nOO년 O월 O일 입니다. \n그 때 다시 만나요!";
+
+// YEAR
+"morethan12" = "12년 이상";
+"lessthan11" = "11년 이하";
+

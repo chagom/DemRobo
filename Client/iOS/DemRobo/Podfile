@@ -1,0 +1,11 @@
+platform :ios, '11.0'
+
+
+target :'DemRobo' do
+    pod 'AWSS3'
+    pod 'AWSEC2'
+    pod 'AWSCognito'
+    pod 'AWSCore'
+    pod 'AFNetworking'
+    pod 'CocoaAsyncSocket' 
+end

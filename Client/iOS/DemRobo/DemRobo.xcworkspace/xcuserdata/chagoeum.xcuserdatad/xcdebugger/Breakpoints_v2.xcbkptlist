@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/Model/FileTransferModel.m"
+            timestampString = "554637960.9608589"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-startFileTransferWithFileURL:WithView:WithProgress:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/Model/FileTransferModel.m"
+            timestampString = "554637960.960927"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-startFileTransferWithFileURL:WithView:WithProgress:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[FileTransferModel startFileTransferWithFileURL:WithView:WithProgress:]"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/Model/FileTransferModel.m"
+                  timestampString = "554637961.00071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__72-[FileTransferModel startFileTransferWithFileURL:WithView:WithProgress:]_block_invoke_3"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/Model/FileTransferModel.m"
+                  timestampString = "554637961.002226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.36"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/Model/FileTransferModel.m"
+                  timestampString = "554637961.003975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/Model/FileTransferModel.m"
+            timestampString = "554637960.960979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-startFileTransferWithFileURL:WithView:WithProgress:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__72-[FileTransferModel startFileTransferWithFileURL:WithView:WithProgress:]_block_invoke.44"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/Model/FileTransferModel.m"
+                  timestampString = "554637961.022848"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__72-[FileTransferModel startFileTransferWithFileURL:WithView:WithProgress:]_block_invoke_2.52"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/Model/FileTransferModel.m"
+                  timestampString = "554637961.024792"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/ViewControllers/PatientInfoViewController.m"
+            timestampString = "554637960.96103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "349"
+            endingLineNumber = "349"
+            landmarkName = "-clickedSignInButtonWithInfo:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PatientInfoViewController clickedSignInButtonWithInfo:]"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/ViewControllers/PatientInfoViewController.m"
+                  timestampString = "554637961.0292161"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PatientInfoViewController clickedSignInButtonWithInfo:]_block_invoke"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/ViewControllers/PatientInfoViewController.m"
+                  timestampString = "554637961.030807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__57-[PatientInfoViewController clickedSignInButtonWithInfo:]_block_invoke_2"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/ViewControllers/PatientInfoViewController.m"
+                  timestampString = "554637961.032388"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.292"
+                  moduleName = "DemRobo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chagoeum/Documents/Swift/DemRobo/DemRobo/ViewControllers/PatientInfoViewController.m"
+                  timestampString = "554637961.033958"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "349"
+                  endingLineNumber = "349"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/ViewControllers/PatientInfoViewController.m"
+            timestampString = "554637960.961081"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
+            landmarkName = "-getResultViewToFrontWithLoginStatus:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/Model/HttpModel.m"
+            timestampString = "554637960.961133"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-getLoginWithPatientInfo:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DemRobo/Model/SocketModel.m"
+            timestampString = "552244347.250999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-socket:didReadData:withTag:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
