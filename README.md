@@ -1,5 +1,5 @@
 # DemRobo
-Source backup of journal: System Design of Sympotom Detection of Mild Cognitive Impairment with Observational Robot [Link](http://www.jatit.org/volumes/Vol97No18/8Vol97No18.pdf) This git is written by multiple sources, PHP, Objective-C, and Python.
+Source backup of journal: System Design of Sympotom Detection of Mild Cognitive Impairment with Observational Robot [Link](http://www.jatit.org/volumes/Vol97No18/8Vol97No18.pdf) This git is written by multiple sources, PHP, Objective-C, and Python. The description below will be updated. 
  
 ## Description
 ### Server 
@@ -9,7 +9,7 @@ Source backup of journal: System Design of Sympotom Detection of Mild Cognitive 
   
 ### Client
 * iPad-based Graphic User Interface: iOS 11
-* KOREAN/ENGLISH 
+* Supports KOREAN/ENGLISH 
 * Due to unsupported Korean version of Google TTS at the time, we adopted Kakao TTS API into our project. (currently not uploaded in this git)
 * Content
   - [DemTect](https://doi.org/10.1002/gps.1042)
