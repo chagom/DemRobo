@@ -27,7 +27,7 @@ Source backup of journal: System Design of Sympotom Detection of Mild Cognitive 
   - DialogFlow-based chatbot system (not applied)
   
 * Sensors
-  - Due to the ability limitation of Q.Bo's processor, pedestrian detection cannot be solved by vision-based solution due to low capacity of local computing side. Hence, we adopted infra-red sensors to cover 240 degree of robot's sight ultimately to realize human-robot interaction. 
+  - Due to low capacity of Q.Bo's processor, pedestrian detection cannot be solved by vision-based solution. Hence, we adopted infra-red sensors to cover 240 degree of robot's sight ultimately to realize human-robot interaction. 
   
 ### Contribution
 * Software developer: [Goeum](https://github.com/chagom)
